@@ -1,12 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Mycoolsite</title>
+  <title>kenzo child coding</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <header id="mainnavigation" class="clearfix" >
+
+    <a href="index.html" class="name">KENZO CHILD CODING</a>
+    <nav>
+    	<a href="projects.html">Projects</a>
+    	<a href="articles.html">Articles</a>
+    	<a href="contact.html">Contact</a>
+    </nav>
+    </header>
+    	<hr>
 
 <%= yield %>
 
